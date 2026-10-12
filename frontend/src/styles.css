@@ -1,0 +1,18 @@
+:root { font-family: system-ui, sans-serif; color: #1f2937; }
+body { margin: 0; background: #f8fafc; }
+main { max-width: 860px; margin: 0 auto; padding: 32px 16px; }
+h1 { margin-bottom: 4px; }
+.sub { color: #6b7280; margin-top: 0; }
+.row { display: flex; gap: 8px; margin: 16px 0 8px; }
+input { flex: 1; padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 15px; }
+button { padding: 10px 16px; border: 0; border-radius: 8px; background: #2563eb; color: #fff; cursor: pointer; }
+button:disabled { opacity: .6; }
+.chips { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+.chip { background: #e0e7ff; color: #3730a3; font-size: 13px; padding: 6px 10px; }
+pre { background: #0f172a; color: #e2e8f0; padding: 12px; border-radius: 8px; overflow-x: auto; }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; background: #fff; }
+th, td { border: 1px solid #e5e7eb; padding: 8px 10px; text-align: left; font-size: 14px; }
+th { background: #f1f5f9; }
+.error { color: #b91c1c; }
+.tag { font-size: 12px; background: #dcfce7; color: #166534; padding: 2px 8px; border-radius: 999px; }
